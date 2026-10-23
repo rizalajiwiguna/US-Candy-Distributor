@@ -4,7 +4,6 @@
 
 **Tools:** Power BI Desktop · Power Query · DAX · Data Modeling · Interactive Data Visualization  
 **Data source:** [Maven Analytics — US Candy Distributor](https://mavenanalytics.io/data-playground/us-candy-distributor)  
-**Deliverable:** Six-page interactive dashboard (`.pbix` maintained separately) and this documented case study.
 
 ![Executive Overview dashboard](images/01_Executive_Overview.jpg)
 
