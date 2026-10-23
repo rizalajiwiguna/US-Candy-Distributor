@@ -1,6 +1,6 @@
 # US Candy Distributor | Sales & Profitability Intelligence
 
-**An end-to-end Power BI case study** exploring sales performance, geographic distribution, product economics, and profit concentration across a US candy distributor's 2021–2024 sales history.
+**An end-to-end Power BI portfolio case study** exploring sales performance, geographic distribution, product economics, and profit concentration across a US candy distributor's 2021–2024 sales history.
 
 **Tools:** Power BI Desktop · Power Query · DAX · Data Modeling · Interactive Data Visualization  
 **Data source:** [Maven Analytics — US Candy Distributor](https://mavenanalytics.io/data-playground/us-candy-distributor)  
@@ -8,6 +8,28 @@
 ![Executive Overview dashboard](images/01_Executive_Overview.jpg)
 
 > **Screenshot formatting note:** The report was captured with an Indonesian Power BI locale. `Rb` means *ribu* (thousand) in visual display units; for example, `$141,78Rb` = approximately **US$141.78K**, **not** Indonesian rupiah. Figures in this README use English-number formatting. The screenshots themselves were preserved as captured.
+
+## Table of Contents
+
+- [Executive summary](#executive-summary)
+  - [Key metrics (all dates and divisions)](#key-metrics-all-dates-and-divisions)
+- [The business problem](#the-business-problem)
+- [Data and analytical approach](#data-and-analytical-approach)
+  - [Preparation and quality controls](#preparation-and-quality-controls)
+- [Dashboard walkthrough - six report pages](#dashboard-walkthrough---six-report-pages)
+  - [01 - Executive Overview](#01---executive-overview)
+  - [02 - Geographic Performance](#02---geographic-performance)
+  - [03 - Product Portfolio](#03---product-portfolio)
+  - [04 - Cost & Margin Diagnostics](#04---cost--margin-diagnostics)
+  - [05 - Profit Concentration](#05---profit-concentration)
+  - [06 - Product Deep Dive](#06---product-deep-dive)
+- [Findings and business implications](#findings-and-business-implications)
+- [Measurement logic](#measurement-logic)
+- [Scope and limitations](#scope-and-limitations)
+- [How to explore the report](#how-to-explore-the-report)
+- [Attribution](#attribution)
+
+---
 
 ## Executive summary
 
@@ -197,4 +219,4 @@ If using only the public repository's screenshots, views are static and slicers 
 
 ---
 
-*Data analytics portfolio case study. Metrics refer to the dataset's 2021–2024 Order Date history unless stated otherwise.*
+*Data analytics case study. Metrics refer to the dataset's 2021–2024 Order Date history unless stated otherwise.*
