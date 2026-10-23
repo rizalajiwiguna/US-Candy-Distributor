@@ -1,4 +1,4 @@
-# DAX Reference — Selected Measures
+# DAX Reference - Selected Measures
 
 These are **representative measures from the dashboard build discussion**, not an automatic extraction from the saved `.pbix`. Reconcile names and DAX with the final model before reusing verbatim.
 
