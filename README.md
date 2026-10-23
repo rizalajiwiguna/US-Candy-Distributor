@@ -1,6 +1,6 @@
 # US Candy Distributor | Sales & Profitability Intelligence
 
-**An end-to-end Power BI portfolio case study** exploring sales performance, geographic distribution, product economics, and profit concentration across a US candy distributor's 2021–2024 sales history.
+**An end-to-end Power BI case study** exploring sales performance, geographic distribution, product economics, and profit concentration across a US candy distributor's 2021–2024 sales history.
 
 **Tools:** Power BI Desktop · Power Query · DAX · Data Modeling · Interactive Data Visualization  
 **Data source:** [Maven Analytics — US Candy Distributor](https://mavenanalytics.io/data-playground/us-candy-distributor)  
