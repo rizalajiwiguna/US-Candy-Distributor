@@ -15,9 +15,9 @@ This file records the modeling and interpretation decisions used in the Candy Di
 ## Relationship design
 
 ```text
-Candy_Factories[Factory] (one) ────────> Candy_Products[Factory] (many)
-Candy_Products[Product ID] (one) ──────> Candy_Sales[Product ID] (many)
-Dim_Date[Date] (one) ──────────────────> Candy_Sales[Order Date] (many)
+Candy_Factories[Factory] (one) ─> Candy_Products[Factory] (many)
+Candy_Products[Product ID] (one) ─> Candy_Sales[Product ID] (many)
+Dim_Date[Date] (one) ─> Candy_Sales[Order Date] (many)
 ```
 
 Filter direction is single from dimensions to the fact table. Product-level division and factory attributes are drawn from `Candy_Products`.
