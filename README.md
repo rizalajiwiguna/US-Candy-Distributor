@@ -71,11 +71,11 @@ Dim_Date[Date]            1 ── * Candy_Sales[Order Date]
 
 For modeling details, measurement definitions, and caveats, see [Model & Data Quality Notes](docs/model_and_quality.md). Representative DAX from the build is in [DAX Reference](docs/dax_reference.md).
 
-## Dashboard walkthrough — six report pages
+## Dashboard walkthrough - six report pages
 
 The report uses consistent **Year, Division, and Region** filters and a sidebar for navigation. The Product Deep Dive adds a product selector for single-SKU analysis.
 
-### 01 — Executive Overview
+### 01 - Executive Overview
 
 ![Executive Overview](images/01_Executive_Overview.jpg)
 
@@ -85,7 +85,7 @@ The report uses consistent **Year, Division, and Region** filters and a sidebar 
 
 **Takeaway:** Revenue increased across the four-year period, with the strongest reported annual sales in **2024**. The five major Wonka Bar products account for most sales and profit, motivating the deeper concentration analysis later in the report.
 
-### 02 — Geographic Performance
+### 02 - Geographic Performance
 
 ![Geographic Performance](images/02_Geographic_Performance.jpg)
 
@@ -95,7 +95,7 @@ The report uses consistent **Year, Division, and Region** filters and a sidebar 
 
 **Takeaway:** **Pacific ($46.30K)** leads regional sales, ahead of **Atlantic ($41.20K)**, **Interior ($32.04K)**, and **Gulf ($22.25K)**. The map shows the US geographic subset; the dashboard's **59 distinct State/Province entries** should not be described as 59 US states.
 
-### 03 — Product Portfolio
+### 03 - Product Portfolio
 
 ![Product Portfolio](images/03_Product_Portfolio.jpg)
 
@@ -105,7 +105,7 @@ The report uses consistent **Year, Division, and Region** filters and a sidebar 
 
 **Takeaway:** **Chocolate generated $131,692.90** in sales (approximately **92.88%** of total sales). **Lot's O' Nuts ($76.34K)** and **Wicked Choccy's ($55.35K)** account for most recorded factory-attributed sales. The treemap contains small factory segments that require hover interaction for full details.
 
-### 04 — Cost & Margin Diagnostics
+### 04 - Cost & Margin Diagnostics
 
 ![Cost & Margin Diagnostics](images/04_Cost_Margin_Diagnostics.jpg)
 
@@ -115,7 +115,7 @@ The report uses consistent **Year, Division, and Region** filters and a sidebar 
 
 **Takeaway:** The **Other** division's gross margin was **44.97%**, compared with **67.45% for Chocolate** and **68.10% for Sugar**. This is a signal to examine product-level cost and price structures; the chart does not establish the cause of the difference.
 
-### 05 — Profit Concentration
+### 05 - Profit Concentration
 
 ![Profit Concentration](images/05_Profit_Concentration.jpg)
 
@@ -125,7 +125,7 @@ The report uses consistent **Year, Division, and Region** filters and a sidebar 
 
 **Takeaway:** The top five products generated **95.06%** of gross profit, while the remaining ten contributed **4.94%**. The cumulative profit curve rises sharply and then flattens. This identifies a concentration exposure worth investigating—not a demonstrated stockout or supplier risk.
 
-### 06 — Product Deep Dive
+### 06 - Product Deep Dive
 
 ![Product Deep Dive](images/06_Product_Deep_Dive.jpg)
 
