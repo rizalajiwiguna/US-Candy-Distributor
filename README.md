@@ -177,23 +177,6 @@ The Pareto visuals use DAX with `ALLSELECTED` to compute product shares in the s
 - **YoY KPI:** The overview's default **27.43%** refers specifically to **2024 vs. 2023** when the full date history is visible. It should not be interpreted as a 2021–2024 compounded growth rate.
 - **No causality or forecasting:** Associations observed here do not establish drivers, demand forecasts, or the effect of prospective actions.
 
-## Repository layout
-
-```text
-us-candy-distributor-powerbi/
-├── README.md
-├── images/
-│   ├── 01_Executive_Overview.jpg
-│   ├── 02_Geographic_Performance.jpg
-│   ├── 03_Product_Portfolio.jpg
-│   ├── 04_Cost_Margin_Diagnostics.jpg
-│   ├── 05_Profit_Concentration.jpg
-│   └── 06_Product_Deep_Dive.jpg
-└── docs/
-    ├── model_and_quality.md
-    └── dax_reference.md
-```
-
 **Power BI source file:** Add your saved `Candy_Distributor_BI_Dashboard_v1.0.pbix` to this repository separately if you decide to share the interactive project. The `.pbix` is **not included** in the supplied screenshot/documentation package.
 
 ## How to explore the report
@@ -214,4 +197,4 @@ If using only the public repository's screenshots, views are static and slicers 
 
 ---
 
-*Prepared as a data analytics portfolio case study. Metrics refer to the dataset's 2021–2024 Order Date history unless stated otherwise.*
+*Data analytics portfolio case study. Metrics refer to the dataset's 2021–2024 Order Date history unless stated otherwise.*
